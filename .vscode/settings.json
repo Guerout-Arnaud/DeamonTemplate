@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "logger_constants.h": "c",
+        "logger.h": "c",
+    }
+}

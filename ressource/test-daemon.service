@@ -1,0 +1,15 @@
+[Unit]
+Description=Template Deamon
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=forking
+ExecStart=/usr/share/my_deamons/template_daemon
+WorkingDirectory=/var
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=%n

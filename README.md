@@ -1,2 +1,2 @@
 # DeamonTemplate
-Simple MultiPlateform Deamon Template
+Simple Deamon Template
